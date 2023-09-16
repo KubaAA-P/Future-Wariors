@@ -49,15 +49,18 @@ public class PlayerControl : MonoBehaviour
         Jumping();
     }
 
-    Vector3 XYMovementCalculations() 
+    Vector3 XYMovementCalculations()
     {
-        float moveX = Input.GetAxis("Horizontal"); //wsad
-        float moveY = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxis("Horizontal"); // A and D keys
+        float moveY = Input.GetAxis("Vertical");   // W and S keys
 
-        Vector3 output = new Vector3(moveX, 0f, moveY);
+        Vector3 movement = new Vector3(moveX, 0f, moveY);
+
+        Vector3 output = transform.TransformDirection(movement); //local -> gloabal rotation
 
         return output;
     }
+
 
     void Jumping()
     {
