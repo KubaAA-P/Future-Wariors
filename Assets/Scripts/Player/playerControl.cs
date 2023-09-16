@@ -6,11 +6,13 @@ public class PlayerControl : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float sprintSpeed = 10f;
+    public float crouchSpeed = 3f;
     public float rotationSpeed = 2f;
     public float jumpForce = 2f;
     public float inAirMultiplicator = 0.7f;
 
     public bool isSprinting;
+    public bool isCrouching;
 
     public Camera playerCamera;
 
@@ -23,6 +25,7 @@ public class PlayerControl : MonoBehaviour
 
     private KeyCode jumpKey = KeyCode.Space;
     private KeyCode sprintKey = KeyCode.LeftShift;
+    private KeyCode crouchKey = KeyCode.LeftControl;
 
     private void Start()
     {
@@ -46,10 +49,15 @@ public class PlayerControl : MonoBehaviour
             playerRigidBody.velocity = movement * sprintSpeed;
             isSprinting = true;
         }
-        else
+        else if (Input.GetKey(crouchKey))
+        {
+            playerRigidBody.velocity = movement * crouchSpeed;
+            isCrouching = true;
+        } else
         {
             playerRigidBody.velocity = movement * moveSpeed;
             isSprinting = false;
+            isCrouching = false;
         }
 
         RotationCalculations();
