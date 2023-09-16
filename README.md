@@ -1,5 +1,5 @@
 # Future Wariors
- Future Wariors is 1vs1 fast-paced first-person-shooter game with unique abilities and many weapons. When using abilities camera turns into 3rd person mode allowing you to gorgeous animations. 
+ Future Wariors is 1vs1 fast-paced first-person-shooter game with unique abilities and many weapons. When using abilities camera turns into 3rd person mode allowing you to gorgeous animations.
 
 <br>
 
