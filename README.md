@@ -3,9 +3,7 @@
 
 <br>
 
-<picture>
-  <source srcset="https://i.imgur.com/qDHDQHc.png">
-</picture>
+![ing5erdiagrm](https://i.imgur.com/qDHDQHc.png)
 
 <br>
 
@@ -24,13 +22,9 @@
 
  <br>
 
- <picture>
-  <source srcset="https://i.imgur.com/3qbzDHr.png">
-</picture>
+![ing5erdiagrm](https://i.imgur.com/3qbzDHr.png)
 
-<picture>
-  <source srcset="https://i.imgur.com/KD2glYa.jpg">
-</picture>
+![ing5erdiagrm](https://i.imgur.com/KD2glYa.jpg)
 
 <br>
 
@@ -39,8 +33,6 @@ We are two person indie studio containging me and my friend. We started creating
 
 <br>
 
-<picture>
-  <source srcset="https://i.imgur.com/2BP0M9B.png">
-</picture>
+![ing5erdiagrm](https://i.imgur.com/2BP0M9B.png)
 
 <br>
