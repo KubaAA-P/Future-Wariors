@@ -73,8 +73,8 @@ public class PlayerControl : MonoBehaviour
 
     Vector3 XYMovementCalculations()
     {
-        float moveX = Input.GetAxis("Horizontal"); // A and D keys
-        float moveY = Input.GetAxis("Vertical");   // W and S keys
+        float moveX = Input.GetAxis("Horizontal"); // wasd keys
+        float moveY = Input.GetAxis("Vertical");   
 
         Vector3 movement = new Vector3(moveX, 0f, moveY);
 
