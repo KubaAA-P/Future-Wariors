@@ -5,9 +5,12 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float sprintSpeed = 10f;
     public float rotationSpeed = 2f;
     public float jumpForce = 2f;
     public float inAirMultiplicator = 0.7f;
+
+    public bool isSprinting;
 
     public Camera playerCamera;
 
@@ -19,6 +22,7 @@ public class PlayerControl : MonoBehaviour
     private float rotationX;
 
     private KeyCode jumpKey = KeyCode.Space;
+    private KeyCode sprintKey = KeyCode.LeftShift;
 
     private void Start()
     {
@@ -36,7 +40,17 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         Vector3 movement = XYMovementCalculations();
-        playerRigidBody.velocity = movement * moveSpeed;
+
+        if (Input.GetKey(sprintKey))
+        {
+            playerRigidBody.velocity = movement * sprintSpeed;
+            isSprinting = true;
+        }
+        else
+        {
+            playerRigidBody.velocity = movement * moveSpeed;
+            isSprinting = false;
+        }
 
         RotationCalculations();
         transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
