@@ -1,5 +1,5 @@
 # Future Wariors
- Future Wariors is 1vs1 fast paced first-person-shooer with unique abilieies and many weapons. When using abilities camera turn into 3rd person mode allowing you to gorgeous animations. 
+ Future Wariors is 1vs1 fast-paced first-person-shooter game with unique abilities and many weapons. When using abilities camera turns into 3rd person mode allowing you to gorgeous animations. 
 
 <br>
 
@@ -10,7 +10,7 @@
 ## Abilities
  We are planning to add many unique abilities such as:
   - blind (similar to omen from Valorant), <br>
-  - time-stop for shorp period of time where player cant shoot but can change location allowing for attack from bechind, reposition or escape, <br>
+  - time-stop for short period of time where player can't shoot, but can change location allowing for attack from behind, reposition or escape, <br>
   - blink (similar to League of Legends), <br>
   - wall raising, <br>
   - and many more...
@@ -18,7 +18,7 @@
 <br>
 
 ## Wepons
- We are planning to add several futuristic weapons that will shool lazer, or lazer bullets.
+ We are planning to add several futuristic weapons that will shoot laser, or lazer bullets.
 
  <br>
 
