@@ -36,3 +36,10 @@ We are two person indie studio containging me and my friend. We started creating
 ![ing5erdiagrm](https://i.imgur.com/2BP0M9B.png)
 
 <br>
+
+
+## Team
+
+- [@jerqPL](https://github.com/jerqPL)
+- [@Pablo-PL](https://github.com/Pablo-PL)
+<br>  
